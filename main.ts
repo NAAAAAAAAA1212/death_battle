@@ -375,7 +375,6 @@ function quest5 () {
     pauseUntil(() => controller.anyButton.isPressed())
     if (controller.A.isPressed()) {
         adventure.clearTextLog()
-        info.changeLifeBy(-1)
         adventure.addToTextlog("You died......")
         death()
     } else {
