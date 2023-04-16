@@ -439,12 +439,6 @@ function death () {
         22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
         `)
 }
-info.onLifeZero(function () {
-    game.over(false)
-})
-info.onScore(20, function () {
-    game.gameOver(true)
-})
 info.setLife(3)
 adventure.setScoreOverride(adventure.Currency.Coins, 0)
 quest1()
